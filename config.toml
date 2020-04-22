@@ -15,7 +15,7 @@
 baseURL = "https://blog.gaurav-dhiman.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "Gaurav's Blog - Technology, Life Experiences & many more ..."
+title = "Gaurav's Blog"
 theme = "tranquilpeak"
 disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-123-45"
@@ -23,7 +23,7 @@ paginate = 7
 canonifyurls = true
 
 [permalinks]
-  post = "/:year/:month/:slug/"
+  post = "/:slug/"
 
 [taxonomies]
   tag = "tags"
