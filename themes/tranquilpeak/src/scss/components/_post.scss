@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .post {
     position:       relative;
     width:          100%;
@@ -34,7 +37,7 @@
         color:          map-get($colors, base);
         margin-top:     20px;
         font-weight:    400;
-        overflow:       hidden;
+        // overflow:       hidden;
         @include prefix('hypens', 'auto', 'webkit' 'moz');
 
         img {

@@ -39,19 +39,20 @@ showTags: true
 showPagination: true
 showSocial: true
 showDate: true
+showTOCOnSide: true
 ---
 Today web apps are developed considering global userbase, so they need to scale fast without disrruption, to serve global traffic. This post explores the architectural as well as infrastructure needs to scale any web app.
 <!--more-->
 
-# Brief history of web apps
+## Brief history of web apps
 Anyone who has worked in web application space for few years must have seen a drastic change in the way web apps are built now and then. In early days of internet, there was no concept of web apps - that was the time of static websites, followed by dynamic websites that were linked to each other with hyperlinks. I think the first web app that we could consider, would be a search engine or online directory (yellow pages). Search engine accepts some keywords and returns results on click of a button. We consider search engine as web app because that has some logic with user interface on web (in browser). From that era of heavy backend logic apps, we have come to an era where significant app logic is implemented in frontend along with backend - think of admin dashboards, web based email clients, frontend of social network - all these have a lot of UI controls, many possible user interactions and UI changes as a result of those interactions. As web apps matured over time to have all this complexity of user interface, it actually replaced the need to have a desktop apps. Things are moving fast and now even web apps are getting replaced with [hybrid apps](https://ionicframework.com/resources/articles/what-is-hybrid-app-development) and PWAs ([Progressive Web Apps](https://developers.google.com/web/ilt/pwa)).
 
-# Problem & solution of scaling-up
+## Problem & solution of scaling-up
 System that are {{< hl-text cyan >}}rigid{{< /hl-text >}} (complex and tightly coupled components), {{< hl-text cyan >}}monolithic{{< /hl-text >}} (all in one) and are built with {{< hl-text cyan >}}no clear demarcation of functional components{{< /hl-text >}} fail to scale up. In general, to scale up any system,  we need to build a system that is {{< hl-text cyan >}}modular{{< /hl-text >}} (think of plug-n-play components), {{< hl-text cyan >}}loosely coupled{{< /hl-text >}} and {{< hl-text cyan >}}flexible{{< /hl-text>}} (react to changes). This principal is not specific to software systems, but to all kind of systems - think of factories, airports, hospitals, government / political systems. The more you observe how real world systems work, the better system designer you can be and software system design is not in anyway different from it.
 
 To scale up software systems, we need to think of components from two different perspectives {{< hl-text cyan >}}architectural{{< /hl-text >}} and {{< hl-text cyan >}}deployment infrastructure{{< /hl-text >}} perspectives. Let's cover each of these in detail.
 
-## Architectural considerations
+### Architectural considerations
 Architecturally scale-able applications should have smaller, reusable and independent components that are loosely couples (free to move around n larger system design). Think of how small lego pieces of different shapes and colors are used to build something big and meaningful. Same way software systems should be build with small components that have plug-n-play interfaces.
 
 {{< image classes="fig-100 center clear" src="https://images.unsplash.com/photo-1568617934289-df4399f8cea3" group="group:travel" title="Photo by Dan Burton on Unsplash" >}}
@@ -71,22 +72,22 @@ Below diagram sums-up the difference between monolithic and microservices archit
 Same as middleware (server app), database layer also needs to be scale-able to make the whole app scale-able. To make database scalable, it needs to be running on cluster of nodes, all nodes being configered as active-active with data getting sheredded over all nodes. Cluster management takes care of scaling up the cluster size by including new nodes in the cluster without any downtime. While architecting scale-able apps, one should choose the database that is distributed and can run in active-active cluster.
 
 
-## Deployment infrastructure considerations
+### Deployment infrastructure considerations
 Along with application architecture, the underlining infrastructure plays a huge role in making the app truely scale-able. Even the well architected microservices based web app can not scale if the underlining deployment infrastructure is not scale-able. In this section I will talk more about deployment strategy. Technology and tools for deployment and managing infra has changed drastically in last few years, mainly in last 15 years. Below diagram shows the snapshot of change from traditional way of deployment on physical servers to virtualized deployments to containerized deployments.
 
 {{< image classes="fig-100 center clear" src="https://www.scaleway.com/assets/images/docs/kube-intro/Deployment_Evo.png" group="group:travel" title="Changes in deployment approach over years. (Image credit: www.scaleway.com)" >}}
 
-#### Physical Machines (PMs)
+#### Deployment on physical server environment
 Long back, web apps used to get deployed on few PMs (Physical Machines). Managing and scaling PMs was more of a manual job, so not scale-able in true sense. This required lot of advanced planning before the spike in traffic happens. Scaling up and down was not possible in real time on need basis. Below daigram show the traditional deployment where application gets deployed on physical machines.
 
 {{< image classes="fig-100 center clear" src="https://lh3.googleusercontent.com/o2c1WKWjH_OasaADJ4OHTk45FvDyDcL0qXKqN_Z8arl1rJkv4dSP0wv2YA90n8ct_fozsGfajCg_SzKGMfw2jazlDYEteHZzKNYjg2m014I3Qym9sUDsDz29hX2S2iZkLvChzuMYBrSbTkM_0sgBkUPTIJ2E6KwjJ7Ba-zbakxLnej8b2PAFVi6hk0Rbb5mx30DuhpjYCktEcnC_K9vsNPtMZxwxt00yq-Vvc3C99Q1cSzL_uiq-dnLssMWAxqiDWrlfdv5wpE0seXRzAEcY5PAhafM8k8sbO3SL_MYdmwKhIGGRvyZe9Cvj6QNTIgIw641KIe8Kahlia9H9S-Pjn5oJkup3EiMf_TkbvadeO2pCCE6mEonXD-HRvg39aJVNytdOGwMjvMSFgSQ0GGaJr9biCTGeCh16qW_Zdw5T8rCmdDL0wPyRGKHBI8VN-K93coM_4rXPWKXDHL-hWBoZtxmiEMDbrJ11fD0dl7siAkOLDNIaKfIxveAYqDROSXvZHyMVV0b02tVj0tAaRj_c6dwrzW6-jbmk8h4TsfjVDyA7N0ZQeCsnIxAauo9WgfctM-scjt49_jt8EXLdqAKjnWKozS0qWihV1NlnIojTD2jk4O38dDRzzTfE5jL196kHQIBLTUyBmQTO1H7BewNCSs8p6ybXmg4J8wt8UHW5r3NN2-UHZst2rbHko-sU_A=w1837-h1570-no" group="group:travel" title="Physical servers cluster." >}}
 
-#### Virtual Machines (VMs)
+#### Deployment on virtualized environemnt
 Then came the time of VMs (Virtual Machines). Advantage of VMs over PMs was better resource utilization and near to real-time response to scaling up needs. One PM can host multiple VMs based on what resources those VM needs, so where we used run one instance of an app in one PM, we can run multiple instances of an app in case of VMs on same PM. This results to better harware resource utilization. As VMs are also relativily quicker to boot and brought into network, scaling up in real-time was also addressed. When traffic spikes, the underlining VM management software spins up multiple VMs, hosting the app instance and bring them on network in near to real-time manner. When traffic lowers down, it can shutdown the VMs. Network typologywise, virtualized deployment schema looks similar to physical deployment schema, except that on each PM there will be multiple VMs. Below diagram shows how multiple VMs are hosted on single PM.
 
 {{< image classes="fig-100 center clear" src="https://miro.medium.com/max/2396/1*oF6QqYRhWPw9HF20CUqhMw.png" group="group:travel" title="Multiple VMs on same PM. (Image credit: www.medium.com)" >}}
 
-#### Containers and container orchesration
+#### Containerized deployment
 VMs were better than PMs but they were still resource intensive for the task of running an app instance. Each VM requires space and memory for Guest OS, common utilities in addition to web app and its dependent packages. Also becuase of this bloatted image of VM, booting VM and making web app available to user takes some time (few minutes at least), so there was always a scope of improvement over VMs. As an improvement to VMs, idea of containerization came in. [Container](https://www.youtube.com/watch?v=0qotVMX-J5s) is packaging of app along with its dependent packages / libraries, without any overload of guest OS and other low level stack. You can think of container as a light-weight VM, that boots fast and make the app instance available in few seconds than minutes as in case of VMs. Below diagram shows the multiple containers hosted on single physical machine. [Docker](https://docs.docker.com/get-started/overview/) is one of the most popiular containerization software that manages the life-cycle of a container.
 
 {{< image classes="fig-100 center clear" src="https://www.docker.com/sites/default/files/d8/styles/large/public/2018-11/container-what-is-container.png?itok=vle7kjDj" group="group:travel" title="Containers. (Image credit: www.docker.com)" >}}
@@ -97,7 +98,7 @@ To manage multiple containers and ensure that they scale up and down as and when
 
 After going through all above, we can easily see how the deployment infrastructure has changed over period and how reactive and scale-able the deployment inftastructure has become, leveraging the cluster capabilities.
 
-#### Serverless OR Function as a Service (FaaS)
+#### Serverless OR Function as a Service (FaaS) deployment
 Serverless deployment approach is relatively new approach and now things are moving from containerized deployments to serverless deployments. The key difference between both is how we build and package our app. I am not sure, but the underlining infrastructure of serverless deployments may be containers only. In serverless deployment, we need not to manage any server. As an app team, we don't even need to know anything about where the servers are, what are their IPs or hostnames etc.; everything is taken care by deployment service provider. In serverless, the {{< hl-text cyan >}} deployment unit is an entry point of an app {{< /hl-text >}}. You can think of an entry point of an app as any callable point in app to render a page or accept / return data (API). Its further smaller unit that microservice.
 
 {{< image classes="fig-100 center clear" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT5Oj5Cc5fj28_pGhSak2-N-PIvuR5pQLd_YQQfMbEGtk8omH0i&usqp=CAU" group="group:travel" title="Serverless Architecture" >}}

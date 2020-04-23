@@ -5,3 +5,18 @@
     padding-right: map-get($main-content, padding-right-left);
     padding-left:  map-get($main-content, padding-right-left);
 }
+
+.table-of-contents {
+  position: sticky;
+	top: 6rem;
+  align-self: start;
+  font-size: 1.4rem;
+  padding: 0 10px 0 0;
+  min-width: 300px;
+}
+
+@media (max-width: 767px) {                  
+  .table-of-contents {
+     display: none;
+  }
+}

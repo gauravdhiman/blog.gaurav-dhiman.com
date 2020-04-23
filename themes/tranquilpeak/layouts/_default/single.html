@@ -16,10 +16,29 @@
             {{ partial "post/header.html" . }}
           {{ end }}
           <div class="post-content markdown" itemprop="articleBody">
-            <div class="main-content-wrap">
-              {{ (replaceRE "<!--\\s*[t|T][o|O][c|C]\\s*-->" (printf "<h1 id=\"table-of-contents\">%s</h1>%s" (i18n "post.toc") .TableOfContents) .Content) | safeHTML }}
-              {{ partial "post/gallery.html" . }}
-            </div>
+            {{ if and .Params.showtoconside (gt (len .TableOfContents) 80) }}
+              <!-- Version of the page with table of contents -->
+              <div style="display: flex;">
+                <div style="flex-grow: 4;">
+                  <div class="main-content-wrap">
+                    {{ .Content | safeHTML }}
+                    {{ partial "post/gallery.html" . }}                
+                  </div>
+                </div>
+                <div class="table-of-contents" id="tableOfContentContainer">
+                  <strong id="table-of-contents">{{ (i18n "post.toc") }}</strong>
+                  {{ .TableOfContents }}
+                </div>
+              </div>
+            {{ else }}
+              <!-- Version of the page without table of contents -->
+              <div class="main-content-wrap">
+                <strong id="table-of-contents">{{ (i18n "post.toc") }}</strong>
+                {{ .TableOfContents }}
+                {{ (replaceRE "<!--\\s*[t|T][o|O][c|C]\\s*-->" (printf "<h1 id=\"table-of-contents\">%s</h1>%s" (i18n "post.toc") .TableOfContents) .Content) | safeHTML }}
+                {{ partial "post/gallery.html" . }}
+              </div>
+            {{ end }}
           </div>
           <div id="post-footer" class="post-footer main-content-wrap">
             {{ if (not (eq .Params.showTags false)) }}
