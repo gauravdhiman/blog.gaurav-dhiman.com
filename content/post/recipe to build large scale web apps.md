@@ -107,14 +107,14 @@ Serverless deployment approach is relatively new approach and now things are mov
 
  {{< image classes="fig-100 center clear" src="https://www.cloudflare.com/img/learning/serverless/glossary/function-as-a-service-faas/monolithic-application-microservice-faas.svg" group="group:travel" title="Transition from Monolithic to Serverless Architecture (Image credit: www.cloudflare.com)" >}}
  
-***Advantages of Serverless over containerized deployments:***
+##### Advantages of Serverless over containerized deployments:
 * Deployments are agnostic to underlining hetrogenious infrastructure.
 * As a developer, one need not to mantain or configure any servers / containers.
 * Deployment unit is much smaller as compared to containers. In serverless, deployment unit is a function (an entry point for API, page etc.), where as in containerized deployments, unit of deployment is container, which may include whole app (middleware logic) or a microservice.
 * As deployment unit is function (logical flow), so the change to one function does not require deployment of whole app or microservice, only the changes function is built and re-deployed. This result in much easier and faster change management.
 * Most of the cloud providers charge based on function invocations - that means request to your application, where as for containers they charge based on uptime of container. As a result, yur cost of running app in serverless would normally be less as compared to app running in containers.
 
-***Disadvantages of Servicerless when compared to containerized deployments:***
+##### Disadvantages of Servicerless when compared to containerized deployments:
 * Deployments are kind of blackbox. You dont know where your code lives, so you loose sense of control.
 * Hard to debug in production as you can not loging to any server and see what went wrong. You app level logging should save you here.
 
