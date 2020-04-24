@@ -65,7 +65,7 @@ If one or more services are more used in application as compared to others, then
 
 {{< image classes="fig-100 center clear" src="https://lh3.googleusercontent.com/4mHRQGQWOW_itf2L0vu_CSBVjGOfjCGvNJZucokkZdBAfugUFgWH9BZR3ZG1webchGSNo7l5EpPLCcSMWmo_YGUP5MstvvcTV138Dke2JHMUfatg8Sg_h6LNnTHBb-YOaEmsnYnOoPcPGEK1ErU4mnTenH-_yWlXImuw3-PsrlKFtG-ihY1ajuTp3G_BPKZJvYl8lePdR6mCXxBecffAFZ4do7D4meJgdwnzGK_nFRYHodnYmdTz1ufwx5nn7xOOFSCqEH-_8eJoSU_opXqDw4-IXLoQtgLQAF7C8p1VAmJ9iue2h7eVSfnKzHs0Ds6IZdzbKHoCfZSbU74bBLio7iDC_wKgYCaXn7ARuYjNkdVMxlSsVNVLEpMfEzG50xqx8igUWHpORE-mzjK5O91rOV39LPW45Jfxms-W1mc0Ow_K__r06B9udCC3rjH8aH8YqJdeMbsROPWiLBSxNXWEhyCi1nCKM8Jhmm4gEAltZ6vSjlfuiChGw7R6m3eTuBQG-Z4Ibca3tgPmIoxj2kiyC4ZipoTMiyOOSzt_K7k-ysJc8fvWGe9UBwLm7NGHG7r1UlQVfcWMDL6a0sT7_7enY8c6VPLuwJxjPoSdKgzRfMlmeERRinuiBfK447nLK8q_P3jMRg0PrEUDzscWHCxUcUS-DuIuuAWcAfi1JIY1wcFHlKUo95ZO1hyf0TV5jg=w1837-h1802-no" group="group:travel" title="Monolithic Architecture" >}}
 
-Below diagram sums-up the difference between monolithic and microservices architetures. Here you can see, in monolithic architecture everyhing is packaged in every single instance of deployment, where as in micoservices, the application is broken down into small functional units (microservices) and each of those can be deployed separately and scaled-up based on which gets more demand / traffic.
+Below diagram sums-up the difference between monolithic and microservices architetures. Here you can see, in monolithic architecture everyhing is packaged in every single instance of deployment, where as in micoservices, the application is broken down into small functional unIt's (microservices) and each of those can be deployed separately and scaled-up based on which gets more demand / traffic.
 
 {{< image classes="fig-100 center clear" src="https://dannyvanderkraan.files.wordpress.com/2017/02/serverless-on-azure-figure-5-2.png" group="group:travel" title="Monolithic vs Microservices Architecture" >}}
 
@@ -88,7 +88,7 @@ Then came the time of VMs (Virtual Machines). Advantage of VMs over PMs was bett
 {{< image classes="fig-100 center clear" src="https://miro.medium.com/max/2396/1*oF6QqYRhWPw9HF20CUqhMw.png" group="group:travel" title="Multiple VMs on same PM. (Image credit: www.medium.com)" >}}
 
 #### Containerized deployment
-VMs were better than PMs but they were still resource intensive for the task of running an app instance. Each VM requires space and memory for Guest OS, common utilities in addition to web app and its dependent packages. Also becuase of this bloatted image of VM, booting VM and making web app available to user takes some time (few minutes at least), so there was always a scope of improvement over VMs. As an improvement to VMs, idea of containerization came in. [Container](https://www.youtube.com/watch?v=0qotVMX-J5s) is packaging of app along with its dependent packages / libraries, without any overload of guest OS and other low level stack. You can think of container as a light-weight VM, that boots fast and make the app instance available in few seconds than minutes as in case of VMs. Below diagram shows the multiple containers hosted on single physical machine. [Docker](https://docs.docker.com/get-started/overview/) is one of the most popiular containerization software that manages the life-cycle of a container.
+VMs were better than PMs but they were still resource intensive for the task of running an app instance. Each VM requires space and memory for Guest OS, common utilities in addition to web app and It's dependent packages. Also becuase of this bloatted image of VM, booting VM and making web app available to user takes some time (few minutes at least), so there was always a scope of improvement over VMs. As an improvement to VMs, idea of containerization came in. [Container](https://www.youtube.com/watch?v=0qotVMX-J5s) is packaging of app along with It's dependent packages / libraries, without any overload of guest OS and other low level stack. You can think of container as a light-weight VM, that boots fast and make the app instance available in few seconds than minutes as in case of VMs. Below diagram shows the multiple containers hosted on single physical machine. [Docker](https://docs.docker.com/get-started/overview/) is one of the most popiular containerization software that manages the life-cycle of a container.
 
 {{< image classes="fig-100 center clear" src="https://www.docker.com/sites/default/files/d8/styles/large/public/2018-11/container-what-is-container.png?itok=vle7kjDj" group="group:travel" title="Containers. (Image credit: www.docker.com)" >}}
 
@@ -99,25 +99,29 @@ To manage multiple containers and ensure that they scale up and down as and when
 After going through all above, we can easily see how the deployment infrastructure has changed over period and how reactive and scale-able the deployment inftastructure has become, leveraging the cluster capabilities.
 
 #### Serverless OR Function as a Service (FaaS) deployment
-Serverless deployment approach is relatively new approach and now things are moving from containerized deployments to serverless deployments. The key difference between both is how we build and package our app. I am not sure, but the underlining infrastructure of serverless deployments may be containers only. In serverless deployment, we need not to manage any server. As an app team, we don't even need to know anything about where the servers are, what are their IPs or hostnames etc.; everything is taken care by deployment service provider. In serverless, the {{< hl-text cyan >}} deployment unit is an entry point of an app {{< /hl-text >}}. You can think of an entry point of an app as any callable point in app to render a page or accept / return data (API). Its further smaller unit that microservice.
+Serverless deployment approach is relatively new approach and now things are moving from containerized deployments to serverless deployments. The key difference between both is how we build and package our app. I am not sure, but the underlining infrastructure of serverless deployments may be containers only. In serverless deployment, we need not to manage any server. As an app team, we don't even need to know anything about where the servers are, what are their IPs or hostnames etc.; everything is taken care by deployment service provider.
 
 {{< image classes="fig-100 center clear" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT5Oj5Cc5fj28_pGhSak2-N-PIvuR5pQLd_YQQfMbEGtk8omH0i&usqp=CAU" group="group:travel" title="Serverless Architecture" >}}
 
+ In serverless architecture, the {{< hl-text cyan >}} deployment unit is an entry point of an app {{< /hl-text >}}. You can think of an entry point of an app as any callable point in app to render a page or accept / return data (API). It's further smaller unit that microservice.
+
+ {{< image classes="fig-100 center clear" src="https://www.cloudflare.com/img/learning/serverless/glossary/function-as-a-service-faas/monolithic-application-microservice-faas.svg" group="group:travel" title="Transition from Monolithic to Serverless Architecture (Image credit: www.cloudflare.com)" >}}
+ 
 ***Advantages of Serverless over containerized deployments:***
-- Deployments are agnostic to underlining hetrogenious infrastructure.
-- As a developer, one need not to mantain or configure any servers / containers.
-- Deployment unit is much smaller as compared to containers. In serverless, deployment unit is a function (an entry point for API, page etc.), where as in containerized deployments, unit of deployment is container, which may include whole app (middleware logic) or a microservice.
-- As deployment unit is function (logical flow), so the change to one function does not require deployment of whole app or microservice, only the changes function is built and re-deployed. This result in much easier and faster change management.
-- Most of the cloud providers charge based on function invocations - that means request to your application, where as for containers they charge based on uptime of container. As a result, yur cost of running app in serverless would normally be less as compared to app running in containers.
+* Deployments are agnostic to underlining hetrogenious infrastructure.
+* As a developer, one need not to mantain or configure any servers / containers.
+* Deployment unit is much smaller as compared to containers. In serverless, deployment unit is a function (an entry point for API, page etc.), where as in containerized deployments, unit of deployment is container, which may include whole app (middleware logic) or a microservice.
+* As deployment unit is function (logical flow), so the change to one function does not require deployment of whole app or microservice, only the changes function is built and re-deployed. This result in much easier and faster change management.
+* Most of the cloud providers charge based on function invocations - that means request to your application, where as for containers they charge based on uptime of container. As a result, yur cost of running app in serverless would normally be less as compared to app running in containers.
 
 ***Disadvantages of Servicerless when compared to containerized deployments:***
-- Deployments are kind of blackbox. You dont know where your code lives, so you loose sense of control.
-- Hard to debug in production as you can not loging to any server and see what went wrong. You app level logging should save you here.
+* Deployments are kind of blackbox. You dont know where your code lives, so you loose sense of control.
+* Hard to debug in production as you can not loging to any server and see what went wrong. You app level logging should save you here.
 
 ### Summary
-To make your web app scale-able, you need to work on both application architecture and deployment infrastructure. Key taek aways:
-- Deployable unit should be small (microservices or functions) and independent of other units (functional block).
-- Deployable units / components should be loosely couple through APIs exposed by each component.
-- Deployment infrastructure should be clusterd, so that it can scale up and down on need basis.
-- Use container and container orchestration or serveless approach to deploy an app, so that infrastructure can respond to scaling needs in real-time.
+To make your web app scale-able, you need to work on both application architecture and deployment infrastructure. Key take aways:
+* Deployable unit should be small (microservices or functions) and independent of other unIt's (functional block).
+* Deployable unIt's / components should be loosely couple through APIs exposed by each component.
+* Deployment infrastructure should be clusterd, so that it can scale up and down on need basis.
+* Use container and container orchestration or serveless approach to deploy an app, so that infrastructure can respond to scaling needs in real-time.
 ****
