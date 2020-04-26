@@ -64,4 +64,4 @@ I preferred self-hosting, but if that is something you do not prefer, choosing o
 
 Even if you self-host your blog, it's good idea to re-publish your post on these popular platforms to get some readers attention as these platforms are common places for avid readers.
 
-I hope you liked reading this post and learned something out of it. Keep exploring. If you want to reach me, feel free to reach me at [my Twitter handle](https://twitter.com/gaurav_dhiman) or on [my website](https://gaurav-dhiman.com).
+I hope you liked reading this post and learned something out of it. Keep exploring. Feel free to reach me [@gaurav_dhiman](https://twitter.com/gaurav_dhiman) or at [my website](https://gaurav-dhiman.com).
