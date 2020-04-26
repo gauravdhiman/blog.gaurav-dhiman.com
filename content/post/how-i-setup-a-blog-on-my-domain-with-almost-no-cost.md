@@ -22,13 +22,13 @@ title = "How I setup a blog on my domain with almost no cost."
 +++
 Blogging is nice habit, if you like to share the skills, knowledge and your thoughts with wider audience. Sometime people blog just to keep their notes and thoughts handy, that is good too. I used to blog long back, somewhere in 2004 to 2007. At that time, I had two blogs - one was [Linux Kernel blog](http://lkdp.blogspot.com/) hosted on Blogspot and another one was was more of [personal blog](https://gauravd.wordpress.com/) hosted on Wordpress. Somewhere in 2008 I left blogging and just got occupied with other stuff in life - career, family, kids etc. Now with beginning of 2020 I thought I should get back to blogging and try to keep it a regular feature in my life, let's see how far I can go this time 🤞.
 
-Although there are much better blogging platforms (Medium and LinkedIn Articles) now as compared to what it used to be earlier, but still this time I thought to setup the blog on my own domain that is self-managed and self-hosted.
+Although there are much better blogging platforms now as compared to when I used to blog earlier, but this time I thought to setup the blog on my own domain that is self-managed and self-hosted.
 
 ## What I needed from my blogging software?
 
-* Quick to setup - no hassle of setting up web-server or database, so bulky software like Wordpress and Ghost were out of option. I kept my options limited to JAMStack. You can check all options here.
-* Option of writing posts with Markdown - it is simple yet powerful enough for writing online documents.
-* I wanted to have seamless and preferably serverless continuous deployment setup, so that I just need to work on my blog posts and as soon as I push it to my repo, it immediately gets deployed on my domain.
+* Quick to setup - no hassle of setting up web-server or database, so bulky software like [Wordpress](https://wordpress.com/) and [Ghost](https://ghost.org/) were out of option.
+* Option of writing posts with [Markdown](https://www.markdownguide.org/) - it is simple yet powerful enough for writing online documents.
+* I wanted to have seamless and preferably [serverless](https://en.wikipedia.org/wiki/Serverless_computing) continuous deployment setup, so that I just need to work on my blog posts and as soon as I push it to my repo, it immediately gets deployed on my domain.
 
 Considering these requirements, I started exploring [JAMStack](https://jamstack.org/) options as it does not require any web-server and database to work. JAMStack site is a static site that is generated when you build your app. There are [many options available](https://www.staticgen.com/) when you go this way.
 
