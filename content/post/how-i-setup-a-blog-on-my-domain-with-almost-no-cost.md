@@ -42,10 +42,8 @@ For hosting and deployments, I chose [Zeit.co](https://zeit.co/), a cloud hostin
 
 Finally here is the short list of things I selected.
 
-## Table
-
 | Item | Pricing |
-| :---: | --- | --- |
+| :---: | --- |
 | Bought domain from GoDaddy | $1 |
 | Hugo as blogging software | Free and open-source |
 | Zeit.co for hosting and deployments | Free plan |
