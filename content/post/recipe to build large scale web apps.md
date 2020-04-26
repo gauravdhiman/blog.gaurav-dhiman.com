@@ -2,7 +2,7 @@
 title: 'Recipe to build large scale web apps'
 date: 2020-03-21
 draft: false
-
+disqusIdentifier = "recipe-to-build-large-scale-web-apps"
 keywords:
 - web-application
 - deployment
