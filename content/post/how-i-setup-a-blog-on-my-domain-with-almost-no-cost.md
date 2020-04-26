@@ -38,9 +38,17 @@ Out of few options that I evaluated, I chose [Hugo](https://gohugo.io/), the sta
 * Its simplicity. Within a minute you can have it running in your local environment.
 * You have an option to choose template from vast [collection of free templates](https://themes.gohugo.io/). For my blog, I chose [this template](https://themes.gohugo.io/hugo-tranquilpeak-theme/).
 
-For hosting and deployments, I chose [Zeit.co](https://zeit.co/), a cloud hosting provider, leveraging serverless deployment approach. Its also a company that is behind popular [NextJS](https://nextjs.org/) framework. I have earlier hosted few applications (like [my personal website](https://www.gaurav-dhiman.com) and [real-time progressive web app](https://discussion.im) for online discussion forums) using their seamless deployment pipeline and I just love the simplicity of it. Zeit have a [free hosting plan](https://vercel.com/pricing) with all the cool features of custom domain, continuous deployments with GIT, hosting of unlimited websites and benefits of serverless deployments.
+For hosting and deployments, I chose [Zeit.co](https://zeit.co/), a cloud hosting provider, leveraging serverless deployment approach. Its also a company that is behind popular [NextJS](https://nextjs.org/) framework. I have earlier hosted few applications (like [my personal website](https://www.gaurav-dhiman.com) and [real-time progressive web app](https://discussion.im) for online discussion forums) using their seamless deployment pipeline and I just love the simplicity of it. Zeit have a [free hosting plan](https://zeit.co/pricing) with all the cool features of custom domain, continuous deployments with GIT, hosting of unlimited websites and benefits of serverless deployments.
 
 Finally here is the short list of things I selected.
+
+## Table
+
+| Item | Pricing |
+| :---: | --- | --- |
+| Bought domain from GoDaddy | $1 |
+| Hugo as blogging software | Free and open-source |
+| Zeit.co for hosting and deployments | Free plan |
 
 For self-hosting I wanted something that I can quickly host and have more control over. I did not want to use bulky blogging software (like [Wordpress](https://wordpress.com/) or [Ghost](https://ghost.org/)) that requires some web server and database setup, so I kept my options limited to [JAMStack](https://jamstack.org/) static site generators. There are [many options available](https://www.staticgen.com/) when you go this way. I also preferred to have deployments done [Zeit.co](https://vercel.com/), a serverless deployment company that also developed [NextJS](https://nextjs.org/). I have hosted few applications (like [my personal website](https://www.gaurav-dhiman.com) and [real-time progressive web app](https://discussion.im)) using their seamless deployment pipeline and I just love the simplicity of it. Keeping Zeit deployment experience in mind, I wanted my blog also to be hosted and deployed using Zeit.
 
