@@ -56,3 +56,5 @@ fields:
 - type: boolean
   name: showTOCOnSide
   label: showTOCOnSide
+pages:
+- content/post/how-i-setup-a-blog-on-my-domain-with-almost-no-cost.md
