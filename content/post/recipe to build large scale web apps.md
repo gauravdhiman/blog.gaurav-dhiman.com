@@ -125,6 +125,6 @@ To make your web app scale-able, you need to work on both application architectu
 - Deployment infrastructure should be clustered, so that it can scale up and down on need basis.
 - Use container and container orchestration or serveless approach to deploy an app, so that infrastructure can respond to scaling needs in real-time.
 
-If you reached till this point, kudos to your reading interest. I know, no one like to read long articles, but frankly speaking, when I started writing this article, I did not plan to make it so big. I will try to keep my future articles short and crisp. I hope this article helped shape and clear some concepts in your mind. Feel free to leave comment, if you have any.
+If you reached till this point, kudos to your reading interest. I know, no one like to read long articles, but frankly speaking, when I started writing this article, I did not plan to make it so big. I will try to keep my future articles short and crisp. I hope this article helped shape and clear some concepts in your mind. Feel free to share feedback or thoughts, if you have any.
 
 ****

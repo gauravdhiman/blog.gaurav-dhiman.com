@@ -17,13 +17,13 @@ languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "Gaurav's Blog"
 theme = "tranquilpeak"
-# disqusShortname = "hugo-tranquilpeak-theme"
-# googleAnalytics = "UA-123-45"
+disqusShortname = "disqus_3m4Yp8hGJz"
+googleAnalytics = "UA-6297967-3"
 paginate = 7
 canonifyurls = true
 
 [permalinks]
-  post = "/:slug/"
+  post = "/posts/:slug/"
 
 [taxonomies]
   tag = "tags"
