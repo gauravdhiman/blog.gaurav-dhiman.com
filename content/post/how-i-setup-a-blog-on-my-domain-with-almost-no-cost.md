@@ -12,7 +12,7 @@ metaAlignment = ""
 showDate = true
 showPagination = true
 showSocial = true
-showTOCOnSide = false
+showTOCOnSide = true
 showTags = true
 tags = []
 thumbnailImage = ""
@@ -40,7 +40,7 @@ This is the quickest way of to get your blog up and running. You don't need to w
 
 * [Medium](https://medium.com) - This has made the blogging a fun. Authoring and editing your blog has never been so easy. One of the great things about this is that it's Ad free. By keeping it Ad free and by hosting great content with clutter free UI, it has become a blogging platform of choice for many. It hosts blogs about almost every subjects from people of varied backgrounds. Although it's Ad free but it has some [revenue model](https://blog.medium.com/the-medium-model-3ec28c6f603a) to keep the shop running.
 * [LinkedIn Articles](https://www.linkedin.com/help/linkedin/answer/47538/publish-articles-on-linkedin?lang=en) - This is another great place where you can share your knowledge. Being a professional networking site, sharing skills and knowledge here makes more sense. It will help you build your online reputation and get you some great connections that may help you in your career path. From authoring perspective, it's very similar to Medium - clean clutter free UI and great user experience (UX) for both authors and readers.
-* [Ghost](https://ghost.org/) - This is another great blogging software that if already hosted for you. It's bit costly for a blogger who just starting off. Again, it has very clean UI / UX. It has a lot of templates to choose from and 
+* [Ghost](https://ghost.org/) - This is another great blogging software that if already hosted for you. It's bit costly for a blogger who just starting off. Again, it has very clean UI / UX. It has a lot of templates to choose from and
 
 Blogging is a nice way to share your skills, knowledge and thoughts with people of same interest. It allows people to build their online reputation, and also make themselves visible to larger audience. Once people recognize you for specific skill or the knowledge you hold of specific domain, that brings you new opportunities in your carrier path.
 
