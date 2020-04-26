@@ -13,13 +13,13 @@ showPagination = true
 showSocial = true
 showTOCOnSide = true
 showTags = true
-tags = []
+tags = ["self hosting", "serverless hosting", "blog setup"]
 thumbnailImage = "https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1932&q=80"
 thumbnailImagePosition = "left"
 title = "How I setup a blog on my domain with almost no cost."
 
 +++
-Blogging is nice habit, if you like to share the skills, knowledge and your thoughts with wider audience. Sometime people blog just to keep their notes and thoughts handy, that is good too. I used to blog long back, somewhere in 2004 to 2007. At that time, I had two blogs - one was [Linux Kernel blog](http://lkdp.blogspot.com/) hosted on Blogspot and another one was was more of [personal blog](https://gauravd.wordpress.com/) hosted on Wordpress. Somewhere in 2008 I left blogging and just got occupied with other stuff in life - career, family, kids etc. Now with beginning of 2020 I thought I should get back to blogging and try to keep it a regular feature in my life, let's see how far I can go this time 🤞.
+Blogging is nice habit, if you like to share the skills, knowledge and your thoughts with wider audience. Sometime people blog just to keep their notes and thoughts handy, that is good too. I used to blog long back, somewhere in 2004 to 2007. <!--more-->At that time, I had two blogs - one was [Linux Kernel blog](http://lkdp.blogspot.com/) hosted on Blogspot and another one was was more of [personal blog](https://gauravd.wordpress.com/) hosted on Wordpress. Somewhere in 2008 I left blogging and just got occupied with other stuff in life - career, family, kids etc. Now with beginning of 2020 I thought I should get back to blogging and try to keep it a regular feature in my life, let's see how far I can go this time 🤞.
 
 Although there are much better blogging platforms now as compared to when I used to blog earlier, but this time I thought to setup the blog on my own domain that is self-managed and self-hosted.
 
