@@ -6,7 +6,6 @@ comments = true
 coverImage = "https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1932&q=80"
 coverSize = ""
 date = 2020-01-05T07:00:00Z
-draft = true
 keywords = ["Serverless Deployment", "JAMStack", "Blog"]
 metaAlignment = ""
 showDate = true
