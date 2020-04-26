@@ -25,7 +25,7 @@ tags:
 clearReading: false
 coverImage: https://images.unsplash.com/photo-1586772002130-b0f3daa6288b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60
 thumbnailImage: https://images.unsplash.com/photo-1586772002130-b0f3daa6288b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=200
-thumbnailImagePosition: bottom
+thumbnailImagePosition: left
 autoThumbnailImage: true
 metaAlignment: center
 coverSize: full
