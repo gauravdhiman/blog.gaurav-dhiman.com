@@ -19,7 +19,9 @@ thumbnailImagePosition = "left"
 title = "How I setup a blog on my domain with almost no cost."
 
 +++
-Blogging is nice habit, if you like to share the skills, knowledge and your thoughts with wider audience. Sometime people blog just to keep their notes and thoughts handy, that is good too. I used to blog long back, somewhere in 2004 to 2007. <!--more-->At that time, I had two blogs - one was [Linux Kernel blog](http://lkdp.blogspot.com/) hosted on Blogspot and another one was was more of [personal blog](https://gauravd.wordpress.com/) hosted on Wordpress. Somewhere in 2008 I left blogging and just got occupied with other stuff in life - career, family, kids etc. Now with beginning of 2020 I thought I should get back to blogging and try to keep it a regular feature in my life, let's see how far I can go this time 🤞.
+Blogging is nice habit, if you like to share the skills, knowledge and your thoughts with wider audience. Sometime people blog just to keep their notes and thoughts handy, that is good too. I used to blog long back, somewhere from 2004 to 2007. <!--more-->
+
+At that time, I had two blogs - one was [Linux Kernel blog](http://lkdp.blogspot.com/) hosted on Blogspot and another one a [personal blog](https://gauravd.wordpress.com/) hosted on Wordpress. Somewhere in 2008 I left blogging and just got occupied with other stuff in life - career, family, kids etc. Now with beginning of 2020 I thought I should get back to blogging and try to keep it a regular feature in my life, let's see how far I can go this time 🤞.
 
 Although there are much better blogging platforms now as compared to when I used to blog earlier, but this time I thought to setup the blog on my own domain that is self-managed and self-hosted.
 
@@ -31,7 +33,7 @@ Although there are much better blogging platforms now as compared to when I used
 
 Considering these requirements, I started exploring [JAMStack](https://jamstack.org/) options as it does not require any web-server and database to work. JAMStack site is a static site that is generated when you build your app. There are [many options available](https://www.staticgen.com/) when you go this way.
 
-### What I chose?
+## What I chose?
 
 Out of few options that I evaluated, I chose [Hugo](https://gohugo.io/), the static site generator written in Go language. It is a popular JAMStack option to build websites and blogs. Few reasons for choosing Hugo was:
 
@@ -43,7 +45,7 @@ Out of few options that I evaluated, I chose [Hugo](https://gohugo.io/), the sta
 
 For hosting and deployments, I chose [Zeit.co](https://zeit.co/), a cloud hosting provider, leveraging serverless deployment approach. Its also a company that is behind popular [NextJS](https://nextjs.org/) framework. I have earlier hosted few applications (like [my personal website](https://www.gaurav-dhiman.com) and [real-time progressive web app](https://discussion.im) for online discussion forums) using their seamless deployment pipeline and I just love the simplicity of it. Zeit have a [free hosting plan](https://zeit.co/pricing) with all the cool features of custom domain, continuous deployments with GIT, hosting of unlimited websites and benefits of serverless deployments.
 
-### How much it all costed me?
+## How much it all costed me?
 
 | Item | Pricing |
 | :---: | --- |
@@ -55,7 +57,7 @@ So over all cost of my blog setup is $1 per year. Now you know the recipe too, f
 
 ## Other options to explore:
 
-I preferred self-hosting, but if that is something you do not prefer, choosing one of the hosted platforms is the quickest way of to get your blog up and running. You don't need to worry about hosting, upgrading or setting up some technical infrastructure for it. You simply register on one of the blogging platforms, choose your template and start blogging, but this comes at some monthly running cost. Here is the list of some popular blogging platform.
+I preferred self-hosting, but if that is something you do not prefer, choosing one of the hosted platforms is the quickest way to get your blog up and running. You don't need to worry about hosting, upgrading or setting up some technical infrastructure for it. You simply register on one of the blogging platforms, choose your template and start blogging, but this comes at some monthly running cost. Here is the short list of popular blogging platforms.
 
 * [Medium](https://medium.com) - This has made the blogging a fun. Authoring and editing your blog has never been so easy. One of the great things about this is that it's Ad free. By keeping it Ad free and by hosting great content with clutter free UI, it has become a blogging platform of choice for many. It hosts blogs about almost every subjects from people of varied backgrounds. Although it's Ad free but it has some [revenue model](https://blog.medium.com/the-medium-model-3ec28c6f603a) to keep the shop running.
 * [LinkedIn Articles](https://www.linkedin.com/help/linkedin/answer/47538/publish-articles-on-linkedin?lang=en) - This is another great place where you can share your knowledge. Being a professional networking site, sharing skills and knowledge here makes more sense. It will help you build your online reputation and get you some great connections that may help you in your career path. From authoring perspective, it's very similar to Medium - clean clutter free UI and great user experience (UX) for both authors and readers.
@@ -63,4 +65,6 @@ I preferred self-hosting, but if that is something you do not prefer, choosing o
 
 Even if you self-host your blog, it's good idea to re-publish your post on these popular platforms to get some readers attention as these platforms are common places for avid readers.
 
-I hope you liked reading this post and learned something out of it. Keep exploring. Feel free to reach me [@gaurav_dhiman](https://twitter.com/gaurav_dhiman) or at [my website](https://gaurav-dhiman.com).
+I hope you liked reading this post and it helped you learn something new today. Keep curious and keep exploring !
+
+Feel free to reach me [@gaurav_dhiman](https://twitter.com/gaurav_dhiman) or at [my website](https://gaurav-dhiman.com).
