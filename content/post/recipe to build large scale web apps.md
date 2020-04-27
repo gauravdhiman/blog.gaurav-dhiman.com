@@ -35,7 +35,6 @@ showPagination: true
 showSocial: true
 showDate: true
 showTOCOnSide: true
-disqusIdentifier: recipe-to-build-large-scale-web-apps
 
 ---
 Today web apps are developed considering global user-base, so they need to scale fast without disruption, to serve global traffic. This post explores the architectural as well as infrastructural needs to scale any web app.
