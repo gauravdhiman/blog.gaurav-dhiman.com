@@ -23,7 +23,7 @@ Blogging is nice habit, if you like to share the skills, knowledge and your thou
 
 At that time, I had two blogs - one was [Linux Kernel blog](http://lkdp.blogspot.com/) hosted on Blogspot and another one a [personal blog](https://gauravd.wordpress.com/) hosted on Wordpress. Somewhere in 2008 I left blogging and just got occupied with other stuff in life - career, family, kids etc. Now with beginning of 2020 I thought I should get back to blogging and try to keep it a regular feature in my life, let's see how far I can go this time 🤞.
 
-Although there are much better blogging platforms now as compared to when I used to blog earlier, but this time I thought to setup the blog on my own domain that is self-managed and self-hosted.
+Although there are much better blogging platforms now as compared to when I used to blog earlier, but this time I thought to setup [my blog](https://blog.gaurav-dhiman.com/) on own domain that is self-managed and self-hosted.
 
 ## What I needed from my blogging software?
 
