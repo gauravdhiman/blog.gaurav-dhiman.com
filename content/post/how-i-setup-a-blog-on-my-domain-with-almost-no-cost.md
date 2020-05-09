@@ -6,14 +6,14 @@ comments = true
 coverImage = "https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1932&q=80"
 coverSize = ""
 date = 2020-01-05T07:00:00Z
-keywords = ["Serverless Deployment", "JAMStack", "Blog"]
+keywords = ["Hugo", "Wordpress", "Hosting", "Serverless Deployment", "JAMStack", "Blog"]
 metaAlignment = ""
 showDate = true
 showPagination = true
 showSocial = true
 showTOCOnSide = true
 showTags = true
-tags = ["self hosting", "serverless hosting", "blog setup"]
+tags = ["jamstack", "self hosting", "serverless hosting", "blog setup"]
 thumbnailImage = "https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1932&q=80"
 thumbnailImagePosition = "left"
 title = "How I setup a blog on my domain with almost no cost."
@@ -29,7 +29,7 @@ Although there are much better blogging platforms now as compared to when I used
 
 * Quick to setup - no hassle of setting up web-server or database, so bulky software like [Wordpress](https://wordpress.com/) and [Ghost](https://ghost.org/) were out of option.
 * Option of writing posts with [Markdown](https://www.markdownguide.org/) - it is simple yet powerful enough for writing online documents.
-* I wanted to have seamless and preferably [serverless](https://en.wikipedia.org/wiki/Serverless_computing) continuous deployment setup, so that I just need to work on my blog posts and as soon as I push it to my repo, it immediately gets deployed on my domain.
+* I wanted to have [seamless ]()and preferably [serverless](https://en.wikipedia.org/wiki/Serverless_computing) continuous deployment setup, so that I just need to work on my blog posts and as soon as I push it to my repo, it immediately gets deployed on my domain.
 
 Considering these requirements, I started exploring [JAMStack](https://jamstack.org/) options as it does not require any web-server and database to work. JAMStack site is a static site that is generated when you build your app. There are [many options available](https://www.staticgen.com/) when you go this way.
 
