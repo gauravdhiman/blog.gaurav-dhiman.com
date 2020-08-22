@@ -20,7 +20,7 @@ thumbnailImagePosition: "left"
 title: "What it truly takes to be a leader ?"
 
 ---
-
+Leadership is all about building a team and driving them all to a larger goal with a sense of achievement and happiness.
 <!--more-->
 ## What it truly takes to be a leader ?
 
@@ -32,17 +32,21 @@ If we go by literal meaning of Leader, {{< hl-text cyan >}}leader is someone who
 
 {{< image classes="fig-100 center clear" src="https://lh3.googleusercontent.com/vsds_EfkmOsAYFO_VQpdZ2y9b0gQwb6bqG_eOxPaGncTMaqj_wHGZc5YaJEHGqVi5mcDrqv1rslJoBxF8LwGlAhVrdZYxswDLgUTOm8Ws9ODGs8qYHkNE4g-VfqvLVg_PHdVXGN1Hbnh0UM4I9mOxNTNEYgcDRIiEryD_Mvc114mydSRyGkpy_lspgwk0p3Z1oIrQf6KZRXA4Ywk-FTcLQ0i5zJDgqCeqJUth2BFQuqKxzLXVd-iZvxCbQs-FMwYfd9ReOzF4QLGxYCT_b-t9-_TjJKa0QgjwYCIvzU15URQ-eHK8A6y10v-qrYzXH4LqOZNmILv1IBOjtlPg4NdLc_6qlwvXVQHPISsVvNIUe_RsBgIvLi9wL6SUChLdLIxPpPut1WHs0i7jHH9WPHAPGsiJD0fg6D5dD-tOasBsrgSztW4GcsE2ihTb5lv01xQpRiX5_7NRujIFgD90ZF8cqZzU06ZuyZNpFP1Rc-mc_C6vLwD4grRMrOktQp2fynCtBFV1P6y21THznzC-c7WDcGyN5BuyoY3m4GG2KDYuweYcmsy1hoAo8T7TsoL6mRQADndN4--i9i6jMnGLEtTRslkAM8nhrJnEDMnc_YyJrJogeUH_VC0Y0mXjW5_FNwL28RGg0DYZVJijZ71stm2DycyY5BSwvp5qs8aeDEBEVQm_PVVyxEQaCcBWQemhA=w2600-h1733-no?authuser=0" group="group:travel" title="Photo by Mathias Jensen on Unsplash" >}}
 
-**To understand, how a true leader looks like at 10,000 feet, let’s take a hypothetical case:** Think of group of hikers and their leader. Let’s say their goal is to reach the peak of hill in least amount of time. Leader has lot of roles to play in it. He/she needs to define bigger vision or goal (reach the top in given time). Leader needs to chalk out a plan with team and have a rough idea of the path they will follow to climb up the hill. They need to help each other to reach the goal as unit. Leader needs to continuously motivate the team to not give up. He/she needs to measure the progress of team against time (control mechanism) and needs to re-invent the plan if the original one doesn’t working. These are some of the things a leader needs to do, but most important of all is to be result oriented along with being compassionate. He/she needs to build and understand the team well and also let the team enjoy the journey to hill top and eventually celebrate the achievement as a team, once they reach the top — after all leader is a human first and must be compassionate. More on compassion in later part of this article.
+**To understand, how a true leader looks like at 10,000 feet, let’s take a hypothetical case:** Think of group of hikers and their leader. Let’s say their goal is to reach the peak of hill in least amount of time. Leader has lot of roles to play in it. He/she needs to define bigger vision or goal (reach the top in given time). Leader needs to chalk out a plan with team and have a rough idea of the path they will follow to climb up the hill. They need to help each other to reach the goal as unit. Leader needs to continuously motivate the team to not give up. He/she needs to measure the progress of team against time (control mechanism) and needs to re-invent the plan if the original one doesn’t working. These are some of the things a leader needs to do, but most important of all is to be result oriented along with being compassionate. He/she needs to build and understand the team well and also let the team enjoy the journey to hill top and eventually celebrate the achievement as a team, once they reach the top — after all leader is a human first and must be compassionate. More on compassion in later part of this post.
 
 In short, {{< hl-text cyan >}}a leader needs to define and drive the initiative end-to-end, to reach the goal, so whatever it takes to reach the goal, comes under leadership{{< /hl-text >}}.
 
-I would say keep this example in mind while you cover rest of this article. It may help you to correlate the ideas.
+I would say keep this example in mind while you cover rest of this post. It may help you to correlate the ideas.
 
 ## Attributes of a leader
 
 One doesn’t become a leader by just title or designation, one needs to have some core attributes / qualities to be called as a leader. Let’s see what are some of those qualities. Leader should be:
 
 ### 1. Visionary and thinker — View of big picture
+
+> "A leader is one who sees more than others see, who sees farther than others see, and who sees before others see."
+>
+> - Leroy Eimes
 
 Leader must be visionary. By visionary I mean, who has very clear big picture of where to go and somehow figures out a way to reach there. It’s perfectly fine for a leader to have a vision with no plans to start with, as plans keep on changing as a reflection of circumstances. He must be able to see things in future before most of us could even realize it happening. Leader should be able to visualize and conceptualize the things that are far fetched and considered as not so possible today. Think of [Bill Gates](https://twitter.com/BillGates) — he was able to see the value of personal computers (PCs) in 1970 when most of the people at that time were still new to computing. He could see what change computers are going to bring in world just in 10 to 15 years, so he planned to tap that massive opportunity. Similarly in late 1990’s, [Jeff Bezos](https://twitter.com/jeffbezos) of Amazon was able to see the world is soon going to change with internet coming in and how its going to change the way people will shop.
 
@@ -51,6 +55,10 @@ Leader must be visionary. By visionary I mean, who has very clear big picture of
 Vision is not just the statement to make, but should actually be a belief of leader and he must make it a dream for his team too. Vision should be ambitious but not be over-ambiguous, as over-ambiguous goals leads the team to nowhere. The vision or goal defined by leader should be very clear, concise and achievable (may be hard to achieve, but still achievable).
 
 ### 2. Planner or Strategist
+
+> "A vision without a strategy remains an illusion." 
+>
+> - Lee Bolman
 
 As said earlier, plans may keep on changing considering the changing circumstance, but important part is to have some plan. As a leader, one must have a great plan (what, how and when needs to be done) to achieve the goal/vision and series of back-up plans as a fall back. You can not see all the hurdle on your way when you start but one should be flexible and adaptive enough to change the plan and address the hurdles as and when required on the way.
 
@@ -62,6 +70,10 @@ In short, leader needs to be a great planner who continuously evolves the plan c
 
 ### 3. Passionate, self-driven and keen on learning
 
+> "Success is not final, failure is not fatal: it is the courage to continue that counts."
+>
+> - Winston Churchill
+
 One can not be a leader, if one looks out for instructions from someone around him/her. Leader needs to be self-driven and for being self-driven he/she must be obsessed with the vision or goal. Passion is the key ingredient to drive any initiative. If you lack passion in your area of work, you will eventually loose interest and will give-up on the way. Passion is so critical that it can make or break things for you. If you have a passion clubbed with conviction to achieve the vision, no matter how many hurdles come your way, it will drive you to reach the goal and achieve that vision. Even if you don’t have resources, plan and other ingredients but still have vision, passion and conviction, you will figure out all other things (plan, customers, resources — team, investment etc). Being human, leader can not always be perfect and he/she need not to be, rather he/she should be open and flexible to evolve things based on his/her learning from surrounding circumstances.
 
 Another good thing about passion is that, whatever happens, it will never let you give-up, so if you hit a hurdle and get into uncharted territories, it will help you cross that too. At such times where leader ventures into unknown areas, his/her openness to get advise, feedback and to experiment and learn makes the difference. He/she needs to be experimental and must carry a mindset of **_fail-fast, learn, refine and retry_**. If a leader is in dark, he/she should seek out for advise from experts and also should never hesitate to try different options available on the table and learn from those experiments. All this will build an experience which one can leverage further on the way.
@@ -72,7 +84,9 @@ One personality that naturally comes to mind for passion and self-driven attribu
 
 ### 4. Team builder
 
-> “**_If you want to go fast, go alone. If you want to go far, go together._**” — African Proverb
+> “If you want to go fast, go alone. If you want to go far, go together.”
+>
+> — African Proverb
 
 The above quote sums up the gist of this point. It’s important to remember, that all big milestones achieved by mankind are achieved by great team not just by their leader or one person. To go far, one needs to build a great team of innovators and achievers that comes with the same conviction as that of leader to achieve the vision.
 
@@ -88,6 +102,10 @@ To achieve the larger goal and to build the right kind of culture, it’s import
 
 ### 5. Owns the risk and responsibility
 
+> "A good leader takes a little more than his share of the blame, a little less than his share of the credit." 
+>
+> — Arnold Glasow
+
 Many time leader needs to walk on unknown paths as torch bearer, so their is always a high risk of failures, but this should not deter him/her to achieve the goals/vision, rather it should make him more innovative and experimental to try out new things.
 
 {{< image classes="fig-100 center clear" src="https://lh3.googleusercontent.com/UOLSqyAvhDvjf1pEnrFz0NRNSVVsGfxiM548VknlOP1R7IjW8ADItkdmhOSTkXiIBo4F-LsDErrbeX_oFrdN7UfdJew7ejZfQUjbUbKa3u-E23bUoOG7c8oiwfuuoyDPRQL_H8iMhiIEWwZRLF26MOsSjWieb1xe82xqrMqTNbrxHArYMFrczCL0o1-HHTlqRBX0lbs8Dtw1b7JhMPDkC7I3SEBMSacxW2RCwRuy5gWE_jIpgHipxqsjD4r3CVeSArSqExMehG-0W2a_ck0vp9n_gv21WH7ixkbLPQXIusm-ddr98UPwwPt-u8zjwbQs_Y7M6TuEH73y_7pDEdcUCC7JOeZ3c0eAWFQSrpAuEUHKtNA6jgAv5mM7ceObUEstAHlgIJsQXi8rC8W2O7CgnO96mr9uVmEsLXARrcNAtpnT88QtHZg1QKqGNVr7Ssg6UJgNTs6ppIyZJcWoZJspdiwfq4zWKArk863gBq2pdPZPlZ8FsRRB7n9cxR-dB1PagPtaarQ9slDETAf8tiEWzKSXN-cGGPRsMttm2ZkW2Syvu6RlVs0EernhbmVepKiQ7El4vyAG3OoVZuJEZijOCsixWS_S9mxnH6IkLw0olS3GhtRt4zlvkHxmptxO40Z0-qNgvewH9xrcyqljkc58X4gPDn5G1kkUaN3AAVCxwwkI4pQDFKvhGzkBwJMOIQ=w2600-h1733-no?authuser=0" group="group:travel" title="Photo by Maja Kochanowska on Unsplash" >}}
@@ -95,6 +113,10 @@ Many time leader needs to walk on unknown paths as torch bearer, so their is alw
 One the way to goal if something goes wrong, it should not be treated as failure, but as a learning. Leader needs to take responsibility of taking wrong decisions but at the same time learn from those to avoid such mistakes going forward. In general, learning is never ending process and that is even true for leaders.
 
 ### 6. Mentor / Guide and Motivator
+
+> "Before you are a leader, success is all about growing yourself. When you become a leader, success is all about growing others."
+>
+> — Jack Welch
 
 Leader needs to nurture the team like a loving parent — he/she needs to let the team venture out, experiment, learn by mistakes but at the same time also guide them wherever they are lost. He/she needs to correct the team’s behavior, action, attitude, wherever he/she sees an issue and needs to appreciate them where they are right.
 
@@ -106,6 +128,10 @@ Leader also needs to keep the team motivated to reach the goal. We all are human
 
 ### 7. Facilitate and empower teams
 
+> "The greatest leader is not necessarily the one who does the greatest things. He is the one that gets the people to do the greatest things." 
+>
+> — Ronald Reagan
+
 Leader need not be an expert or better skilled in performing the day to day tasks that normally his/her team performs. If the leader is hand-on and can roll-up sleeves to perform the actual task in hour of need— nothing like it, but that should not be an expectation from a leader on regular day.
 
 {{< image classes="fig-100 center clear" src="https://lh3.googleusercontent.com/xlk9x5QE3XE4cX57pEzmhuOIqriOvLgDabtwNpR3mNRZ6tJJDbqauvEzAOTg9UkbZ-doqF33aPDzVhpWQZaJggyIX5o8OeCBo1ugVkylwaRfMDZLd3DkKiT_pUN_PcyLR1pc8uX2LpUEzpWe5C7EM5kcpPmXWn_1w3UzKQHaYOhWMOoOtTwyd8Q7ZfSAGyhYiazNEva8M1XCYU_a_mjhKIhH40jfPL-JCykI6sLso4ILpetnD3HGdUZNIB0yaOYpEa9Tin7zl_1J0OramFXra3oruL58KcLKttEFTnUvMBm8YMRLL4xRMf19EyA3jXu5pKQ88tU587DG0TlvCCwAWxpwFrj6oOvJIZdOdyCugTtZvRebsB95mmCBZu923DGVKa5x7m7QgY-GN1IxMLGWo1Eb49myClGBeCVeE2-8nF2PndjRi_sADby2MF0O_zYWlEBxNCHqn_ZSRnrqlK3mGkAowWVt1Y3Tdkrqebf-wpV5jW2PYENvrkvva9_OQCyCEOU13GQqOpjQIs5QKD9_YdShOt7Ov1FU9jIMEd6pjJ-BFB-GA6tEFM5WpVZ4xqEuHzt_imOLa0SpybB5PAXdddWR_zMBCWutbfE2Qck5Lh-WCLWnIzYNU21MYWarsPvFgQV9vwbTYmD0alWzI5FrWYROScJpkLs-BdYKTHtd7vWXtjnjxxAdMUqFaJpndw=w2600-h1733-no?authuser=0" group="group:travel" title="Photo by Jonathan Borba on Unsplash" >}}
@@ -113,6 +139,10 @@ Leader need not be an expert or better skilled in performing the day to day task
 The role of leader is of enabler and catalyst who can enable and empower the team to achieve the larger goal as a unit not just as individuals. Whatever is required to enable a team (could be training, team bonding, motivating, making resources available, connecting with right partners etc.) and make them feel happy as a family, who row the boat together, is leader’s responsibility.
 
 ### 8. Play the cards as required
+
+> "Always put your best foot forward, because you never know where your next step may lead you."
+>
+> ― Stephan Labossiere
 
 Every human is different from others and carry different capabilities and skill levels. As a leader, one should very well be aware of the strengths and weaknesses of each of his/her immediate team members.
 
@@ -122,6 +152,10 @@ Considering the situation, one team member may be better suited for given assign
 
 ### 9. Exemplary and inspiring
 
+> "The quality of a leader is reflected in the standards they set for themselves."
+>
+> - Ray Kroc
+
 The position of leader can not be imposed, rather it needs to be earned. To be known as a leader, one needs to perform and show an exemplary behavior and actions. The actions of leader speaks more than his/her words, so he/she should live by values that he/she wants others to follow. Leader needs to hold an inspirational position for the team members. He/she needs to be the torch bearer and show the right path, so his actions and words matter a lot.
 
 {{< image classes="fig-100 center clear" src="https://lh3.googleusercontent.com/9-KheGpOqRhfkAb1odTXoe8C5AeKip2YksWWmakcYuujYIwGKuzrgl3uFMr_6EfAMmJY7PjoG35Y_ZTbHu0emhqw5Nd5Xev_xSvVshZScHlQDJat-G1-maYEImGe51AUnvnkPL7egg_Hks4H97vVFukI6-AdAT71QwW0kFGBC_lhZzopRhCCOzSguM6q9kYn-IKuDNnXoISa6nEkafPppJ7aXSu75uUevVPM3-880MU8UM7XaoXrBhoEJCYJ-3SAP-_pvjM2o5aV0G9335_ZAQPIpDq2UVAyOrAVfvJcXczP2q0-3AgUFTTVdAEw5fztzgWIkfFzyk2MljUp_AkEgYVY2GCxz72U2bDkcaeiWKNl1iA1qn9oLTOZJl8oRtbRnlDWaNzyLRoT-dokD4_nzWDfzE_Vu7wliW4QT2thb9MKIrCIpPmsK3F8AzQcKn33Oejq-7MbZByHW7xno4n-kW0DBePXpItOuDqoxOBdiHDwfelq6Ibi5arM2eDyLxJS9J5ThwFTlKkuMvbB7ONaATRK3z3b_OMA9ajTsmGy9O36WtCGKT0Oa91sqOPwB3rJfIKsdQdSuSkWWjFs46bKhqIDFYfqTRM6slw5D7Ut2sFlBOJZ4wNXdUxM2J9sCXY1WVW37cYppNBCuY7ldG_wFEN1dtC-T02w3LG85MpxV0U3XBaUDJrDVMx-Ercqjg=w2515-h1885-no?authuser=0" group="group:travel" title="Photo by Annie Spratt on Unsplash" >}}
@@ -129,6 +163,10 @@ The position of leader can not be imposed, rather it needs to be earned. To be k
 If a leader wants his team to reach the goal/vision, he/she needs to show and walk on the path along with his/her team. Sometimes he/she needs even be on the ground and be hands-on to even clear the path for the team — lead the team by example. In simple words, leader needs to do whatever it takes to make the team reach it’s goal with a sense of achievement. He/she needs to be an ideal example for his team to look at, not just an ordering machine.
 
 ### 10. Compassionate
+
+> "You can have the best strategy and the best building in the world, but if you don't have the hearts and minds of the people who work with you, none of it comes to life." 
+>
+> - Renee West
 
 Teams are made of humans and every human have feelings, so its very important for a leader to have human connect with each of his/her team member. We must acknowledge that humans perform best when they are happy doing what they are doing, enjoy physical and mental health, feel safe & comfortable in environment and have a strong bond of care with their colleagues.
 
@@ -142,6 +180,10 @@ True leader will never disconnect with his/her team and will always stand with t
 
 ### 11. Result oriented and decisive
 
+> "Leadership is the capacity to translate vision into reality." 
+>
+> - Warren G. Bennis
+
 This point is obvious and you may consider it to be contradictory to above point. I covered this point next to the above one, so that I can discuss them side by side and show you that these points are not contradictory at all. One surely needs to be result oriented to achieve anything, but one should not be blindly result-oriented. As mentioned earlier, it matters to achieve the goal but it also matters how we achieved the goal, so the journey to destination / goal is important and needs to be rememberable, fulfilling and an experience of joy for all who are part of it.
 
 {{< image classes="fig-100 center clear" src="https://lh3.googleusercontent.com/7Y5rNdHXvetz3f-XztfZbR51YXc6MeUMubukzn2IytliPoz-ZNK7UeHDQZskvI3DlAJeAJRxsAZVHIpeduVY5hOzteqlmmhkj11GeSdI8stHLNLABX6P6K0Nn5TYQeu8R2GixT8H5Q_lOf51V1yf9NEKwG0TsGkV5mD9G5gNbx4fWZ6Sx2-ZZw4WPrLd2btvkI-y7iz_DDvtAVqV3NVoGoBoYjfdLmT5y71xRrMyWIQyamy8p5QoiIMpx0juAJppc-phwVaKAbJP5Msf30Y7RaG1NoAU6K_shyf4-RDU98Vrce95wOTX5ypKamB5wF9_NuWlPLLIOlRn3B3NtTuMjo3Tbc3YfUV4tY5qOXz3OJ4UVuPc2oHeqWwS4_ysrt3a-MJFPtK67lq9L09lb9OtERixv42RnltzEfPOHt6MMsV-K-5X7SJDdCSSPKMNEADR_Nx1G5zEigZdff6Ginji9sV3JqamCfi4iQJdszGgmjfl4L943mAm3epgKKepUfdBeeWuRGyF3pCm3uhjkLr6DpX98Mlf928kIECkIhftmYyX8UQBNIV63tYJrqnLTUn3geyzVBs-GDjR_ittcZPlZRXdXCprOfHHA2tCrw-MoB5VxyBU1CjtKNKUAMb2xc1o92WvL9tUDWM-pxklUFyb_CacQbLmBcZoaLsAKWx447nxl7OfydClb9fBmAs-2Q=w2600-h1734-no?authuser=0" group="group:travel" title="Photo by engin akyurt on Unsplash" >}}
@@ -150,8 +192,10 @@ Leader needs to keep a tap on progress towards goal to have a reality check of p
 
 ***
 
-I hope this article helps you understand the core qualities one needs to have for being a great leader. I believe some are born leaders and some learn to be a leader, but who so ever it is, **_leader needs to bring together individuals, motivate and fuel them to achieve a larger clearer goal with compassion and grit_**.
+I hope this post helps you understand the core qualities one needs to have for being a great leader. I believe some are born leaders and some learn to be a leader, but who so ever it is, **_leader needs to bring together individuals, motivate and fuel them to achieve a larger clearer goal with compassion and grit_**.
 
-I would recommend you to watch this awesome [Google talk by James Lawrence](https://www.youtube.com/watch?v=dhcuSwkGCjE) about his extra-ordinary achievement. Although this video is not directly related to leadership, but more to his personal achievement, still I feel it touches all the leadership qualities I talked about in this article.
+I would recommend you to watch below awesome Google talk by [James Lawrence](https://www.ironcowboy.com/) about his extra-ordinary achievement. Although this video is not directly related to leadership, but more to his personal achievement, still I feel it touches all the leadership qualities I talked about in this post.
 
-If you have any feedback or views about article, feel free to leave comments. You can also reach me at my [Twitter](https://twitter.com/gaurav_dhiman) handle and [LinkedIn](https://www.linkedin.com/in/gauravdhiman/).
+{{< youtube dhcuSwkGCjE >}}
+
+If you have any feedback or views about this post, feel free to leave comments. You can also reach me at my [Twitter](https://twitter.com/gaurav_dhiman) handle and [LinkedIn](https://www.linkedin.com/in/gauravdhiman/).
