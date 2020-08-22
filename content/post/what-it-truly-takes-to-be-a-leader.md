@@ -20,7 +20,7 @@ thumbnailImagePosition: "left"
 title: "What it truly takes to be a leader ?"
 
 ---
-Leadership is all about building a team and driving them all to a larger goal with a sense of achievement and happiness.
+In this post, I will talk about what actually leader means and what kind of attributes make one a leader. Leadership is all about building a team and driving them all to a larger goal with a sense of achievement and happiness.
 <!--more-->
 ## What it truly takes to be a leader ?
 
@@ -98,7 +98,7 @@ To achieve the larger goal and to build the right kind of culture, it’s import
 * Hire people who not afraid to even question the fundamentals. This is important as it will brings new perspective. For these people, if things doesn’t make sense, they will question it, even if it is done since beginning and is a defined norm. This attribute shows the inquisitive nature of a person which is key for innovation. They are keen on learning beyond what they may be working on. This is the key attribute of the people who will go beyond limits to get the things done right way.
 * Hire people who carry most or all attributes of being a future leader as that plays an important role when the organization grows. By being a leader here means not just a people leader, but a person who owns and drives things of his own, it could be in any space (finance, technology, hiring, delivery etc) or at any level (senior, mid, junior levels).
 
-**_Bottom line: Hire smarter people as they will attract more smarter people and eventually these people will build the culture which is one of the important factors for any team’s success._**
+{{< hl-text cyan >}}Bottom line: Hire smarter people as they will attract more smarter people and eventually these people will build the culture which is one of the important factors for any team’s success.{{< /hl-text >}}
 
 ### 5. Owns the risk and responsibility
 
